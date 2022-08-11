@@ -103,7 +103,7 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import Vue, { defineComponent } from "vue";
 
 export default Vue.extend({
   name: "HelloWorld",
@@ -125,6 +125,7 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
+  width: calc(100 - 1);
 }
 a {
   color: #42b983;
